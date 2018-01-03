@@ -31,7 +31,7 @@ def main(argv=None):
             try:
                 print("\nFavorite id: ", favorite.id)
                 if (DRY_RUN == False):
-                    # status = api.DestroyFavorite(status_id=favorite.id)
+                    status = api.DestroyFavorite(status_id=favorite.id)
                     print(status)
                 else:
                     print("Dry run")
@@ -52,7 +52,7 @@ def main(argv=None):
                 if (tweet.retweeted == True):
                     print("\n Retweet id: ", tweet.id)
                     if (DRY_RUN == False):
-                        # status = api.DestroyStatus(tweet.id)
+                        status = api.DestroyStatus(tweet.id)
                         print(status)
                     else:
                         print("Dry run")
@@ -72,7 +72,7 @@ def main(argv=None):
             try:
                 if (DRY_RUN == False):
                     print("\n Tweet id: ", tweet.id)
-                    # status = api.DestroyStatus(tweet.id)
+                    status = api.DestroyStatus(tweet.id)
                     print(status)
                 else:
                     print("Dry run")

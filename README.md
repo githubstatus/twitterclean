@@ -66,5 +66,5 @@ Deletes your retweets and favorites.
 # Credits
 Based on: https://github.com/brunocassol/twitterwipe
 
-##Techical note
+## Techical note
 Twitter implements rate limiting on its API so we need to pause execution for a few moments every once in a while.
