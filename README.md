@@ -52,11 +52,11 @@ Deletes your tweets, retweets and favorites.
 
    Choose if you want to delete your retweets
 
-  - REMOVE_FAVORITES:
+ - REMOVE_FAVORITES:
 
    Choose if you want to delete your favorites
 
-  - DRY_RUN: 
+ - DRY_RUN: 
 
    It will run the script without actually deleting anything. Always run the script FIRST using "DRY_RUN = True" and take a look at what it would delete before actually running it.
 
