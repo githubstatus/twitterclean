@@ -65,7 +65,7 @@ Deletes your tweets, retweets and favorites.
         python3 twitterclean.py
 
 # Credits
-Based on: https://github.com/brunocassol/twitterwipe
+Based on: https://github.com/brunocassol/twitterwipe , which itself is based on: https://github.com/olivierthereaux/oldtweets/blob/master/oldtweets.py
 
 ## Techical note
 Twitter implements rate limiting on its API so we need to pause execution for a few moments every once in a while.
