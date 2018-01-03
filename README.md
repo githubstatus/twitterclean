@@ -2,7 +2,7 @@
 
 Inspired from https://github.com/brunocassol/twitterwipe
 
-Deletes your retweets and favorites.
+Deletes your tweets, retweets and favorites.
 
 # Usage
 1. Make sure your have Python 3 installed by running this in console:
