@@ -16,10 +16,10 @@ def main(argv=None):
     access_token_key = os.environ.get("access_token_key"),
     access_token_secret = os.environ.get("access_token_secret"))
 
-    REMOVE_TWEETS = True
+    REMOVE_TWEETS = False
     REMOVE_RETWEETS = True
-    REMOVE_FAVORITES = True
-    DRY_RUN = True
+    REMOVE_FAVORITES = False
+    DRY_RUN = False
 
     while REMOVE_FAVORITES:
         print("\n FAVORITES:\n")

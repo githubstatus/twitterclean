@@ -68,4 +68,4 @@ Deletes your tweets, retweets and favorites.
 Based on: https://github.com/brunocassol/twitterwipe , which itself is based on: https://github.com/olivierthereaux/oldtweets/blob/master/oldtweets.py
 
 ## Techical note
-Twitter implements rate limiting on its API so we need to pause execution for a few moments every once in a while.
+Twitter implements rate limiting on its API so we need to pause execution for a few moments every once in a while. That means that if you want to delete a large number of tweets you'd need to let this run for a very long time.
